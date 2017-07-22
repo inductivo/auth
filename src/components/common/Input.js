@@ -9,7 +9,7 @@ const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => 
       <Text style={labelStyle}>{label}</Text>
       <TextInput
         secureTextEntry = {secureTextEntry}
-        autocorrect={false}
+        autoCorrect={ false }
         placeholder={placeholder}
         style={inputStyle}
         value={value}
